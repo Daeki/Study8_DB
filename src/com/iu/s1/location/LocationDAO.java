@@ -19,11 +19,7 @@ public class LocationDAO {
 	public void getList() {
 		//LOCATIONS Table을 조회해서 출력
 		
-		//1.접속정보
-		String user="user02";
-		String password="user02";
-		String url ="jdbc:oracle:thin:@127.0.0.1:1521:xe";
-		String driver = "oracle.jdbc.driver.OracleDriver";
+	
 		
 		//2. Driver를 메모리에 로딩
 		Connection con = null;
